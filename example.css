@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    background-color: darkslategrey;
+    color: white;
+    padding: 5px;
+    padding-left: 60px;
+
+}
+
+.left{
+    padding-left: 5px;
+    padding-right: 400px;
+    margin: 5px;
+    margin-right: 5px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+.right{
+    display: flex;
+    padding-left: 400px;
+    
+    
+}
+
+.main{
+    display: flex;
+    background-color: darkslategrey;
+    color: white;
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 40px;
+
+}
+
+.web{
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;;
+
+}
+
+.subtext{
+    width: 300px;
+    height: 100px;
+    margin: 0%;
+    margin-right: 50px;
+
+}
+.signup{
+    background-color: skyblue;
+    color: white;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.place{
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-right: 50px;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+
+.bord{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border-color:skyblue;
+}
+.quote{
+    background-color: lightgrey;
+    font-size: 25px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    letter-spacing: 1px;
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.last-box{
+    display: flex;
+    background-color: lightblue;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.call{
+    display: flex;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.msg{
+    padding-left: 5px;
+    padding-top: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.insign{
+    background-color: blue;
+    color: white;
+    width: 80px;
+    height: 30px;
+    padding: 5px;;
+    border-style: solid;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
