@@ -86,9 +86,11 @@ li{
 
 .boxes{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto;
     column-gap: 20px;
-    row-gap: 40px;    
+    row-gap: 40px;
+    justify-items: center;  
+    justify-content: center; 
 }
 
 .box1{
@@ -145,7 +147,7 @@ li{
 
 .last-box{
     display: grid;
-    grid-template-columns: 300px 80px;
+    grid-template-columns: 1fr auto;
     width: 800px;
     background-color: lightblue;
     margin-left: 300px;
@@ -177,9 +179,9 @@ li{
     padding: 5px;;
     border-style: solid;
     border-radius: 8px;
-    margin-left: 200px;
-    margin-top: 25px;
-    margin-right: 10px;
+    justify-self: end;
+    align-self: center;
+    margin: 0 10px 0 0;
 }
 
 footer{
