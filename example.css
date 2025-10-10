@@ -5,19 +5,16 @@ body{
 }
 
 .header{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1000px 500px;
     background-color: darkslategrey;
     color: white;
-    padding: 5px;
-    padding-left: 60px;
+    height: 120px;
 
 }
 
 .left{
-    padding-left: 5px;
-    padding-right: 400px;
-    margin: 5px;
-    margin-right: 5px;
+   padding-left: 180px;
 }
 li{
     list-style: none;
@@ -25,41 +22,49 @@ li{
 }
 
 .right{
-    display: flex;
-    padding-left: 400px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
     
     
 }
 
 .main{
-    display: flex;
+    display: grid;
+    grid-template-columns: 400px 300px ;
     background-color: darkslategrey;
     color: white;
     padding: 5px;
     padding-left: 60px;
     padding-right: 40px;
+    padding-bottom: 30px;
+}
 
+.left-side-main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
 }
 
 .web{
-    width: 200px;
-    height: 50px;
+    font-size: 40px;
+    width: 250px;
+    height: 70px;
     margin-right: 20px;;
 
 }
 
 .subtext{
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: 70px;
     margin: 0%;
     margin-right: 50px;
 
 }
 .signup{
-    background-color: skyblue;
+    background-color: rgb(3, 122, 169);
     color: white;
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     padding: 5px;
     border-style: solid;
     border-radius: 8px;
@@ -67,9 +72,11 @@ li{
 
 .place{
     background-color: lightgray;
-    width: 100px;
-    height: 100px;
-    padding: 100px;
+    width: 120px;
+    height: 60px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding:70px;
     padding-left: 150px;
     padding-right: 150px;
     margin-right: 50px;
@@ -77,11 +84,46 @@ li{
     margin-top: 5px;
 }
 
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;    
+}
+
+.box1{
+    border-radius: 5px;
+    width: 180px;
+    height: 220px;
+
+}
+.box2{
+    border-radius: 5px;
+    width: 180px;
+    height: 220px;
+
+}
+.box3{
+    border-radius: 5px;
+    width: 180px;
+    height: 220px;
+
+}
+.box4{
+    border-radius: 5px;
+    width: 180px;
+    height: 220px;
+}
 .bord{
-    width: 50px;
-    height: 50px;
-    border-radius: 15px;
-    border-color:skyblue;
+    border: 3px solid blue;
+    border-radius: 5px;
+    width: 120px;
+    height: 150px;
+}
+
+.bord-text{
+    width: 150px;
+    height: 30px;
 }
 .quote{
     background-color: lightgrey;
@@ -102,30 +144,31 @@ li{
 }
 
 .last-box{
-    display: flex;
+    display: grid;
+    grid-template-columns: 300px 80px;
+    width: 800px;
     background-color: lightblue;
-    margin-left: 80px;
+    margin-left: 300px;
     margin-right: 80px;
     border-radius: 5px;
     padding: 5px;
+    padding-left: 100px;
 }
 
 .call{
-    display: flex;
-    padding-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 25px;
     margin-left: 20px;
+    margin-bottom: 0;
 }
 
 .msg{
-    padding-left: 5px;
-    padding-top: 40px;
-    margin-top: 0;
-    margin-bottom: 10px;
     font-size: 12px;
     margin-left: 20px;
+    margin-top: 0;
+    padding-bottom: 20px;
+    width: 350px;
 }
+
 .insign{
     background-color: blue;
     color: white;
@@ -135,6 +178,15 @@ li{
     border-style: solid;
     border-radius: 8px;
     margin-left: 200px;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-right: 10px;
+}
+
+footer{
+    background-color: darkslategrey;
+    margin-top: 15px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
 }
