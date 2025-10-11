@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            margin: 80px;
+            padding-left: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            border-radius: 4px;
+            background-color: rgb(0, 106, 255);
+            width: 100px;
+            height: 50px;
+            cursor: pointer;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <h3><b>Choose your choice</b></h3>
     <div class="choice">
-        <button onclick="play('rock')">Rock</button>
-        <button onclick="play('paper')">Paper </button>
-        <button onclick="play('scissor')">Scissor</button>
+        <button onclick="play('rock')">Rock 🪨</button>
+        <button onclick="play('paper')">Paper 📃</button>
+        <button onclick="play('scissor')">Scissor ✂️</button>
     </div>
     <div id="result">Result is :</div>
     <script>
