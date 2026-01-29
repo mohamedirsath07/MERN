@@ -1,16 +1,12 @@
-let object1={age:33};
-let object2=object1;
-object2.age=22;
-console.log(object2.age);
-
-function sum(a,b){
-    console.log(a+b);
+const fetchApi = async() => {
+    try {
+        const res = await fetch ('http://localhost:3000/api/tasks/getTask')
+        const data = await res.json();
+        {data.map((n)=>{console.log(n)})}
+    }
+    catch (error) {
+        console.log(error);
+    }
 }
-sum(6,9);
 
-
-const sumof=(a,b,c)=>{
-    console.log(a+b+c);
-
-}
-sumof(2,5,9);
+fetchApi()
